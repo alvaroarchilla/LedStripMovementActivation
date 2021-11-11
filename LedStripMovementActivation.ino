@@ -12,7 +12,7 @@ void setup()
   digitalWrite(PINLED , HIGH);
   pinMode(PINLED, OUTPUT);
   Serial.begin(115200);
-  Serial.println("Semsor inicializado");
+  Serial.println("Sensor inicializado");
 }
 
 void loop()
